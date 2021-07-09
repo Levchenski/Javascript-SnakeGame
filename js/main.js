@@ -1,12 +1,13 @@
-function mas(els) {
-    const a = [4, 5, 6];
-    let element = document.querySelectorAll('.item');
-    for(let s = 0; s < )
-    els(element, a);
-}
+const canvas = document.getElementsByClassName('game')[0];
+const ctx = canvas.getContext('2d');
+const ground = new Image();
+ground.src = "img/1562688808.png";
+const food = new Image();
+food.src = "img/1562688805.png";
+let box = 32;
 
-function callback(elem, arr){
-    elem.innerHTML = arr.join('-')
-}
+let score = 0;
 
-mas(callback);
+function drawGame() {
+    ctx.drawImage(ground, 0, 0);
+}
