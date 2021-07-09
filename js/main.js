@@ -1,8 +1,3 @@
-const ok = "Хорошо !";
-document.addEventListener('DOMContentLoaded', () => {
-    console.log(ok);
-});
-
-document.addEventListener('click', () => {
-    console.log(event.target);
-})
+function moneyConverter(num){
+    document.getElementById('outputrub').innerHTML =  num*74;
+}
