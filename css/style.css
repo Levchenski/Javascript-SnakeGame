@@ -10,4 +10,6 @@ body,
 html {
     background: #e8dddd;
     color: #0b0b0b;
+    display: grid;
+    justify-content: center;
 }
